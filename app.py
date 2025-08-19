@@ -5,8 +5,8 @@ import pandas as pd
 
 st.title('House cooking and grocerry status')
 
-data=data_read('/Users/gautammehta/Downloads/GroceryList.xlsx - Daily meal plan.csv')
-data2=data_read('/Users/gautammehta/Downloads/GroceryList.xlsx - Grocery list.csv')
+data=data_read('data_files/GroceryList.xlsx - Daily meal plan.csv')
+data2=data_read('data_files/GroceryList.xlsx - Grocery list.csv')
 df=processing(data2)
 pivot=processing1(data)
 dt= processing2(data)
